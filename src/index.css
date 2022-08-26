@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-600
+}
+
+.form-control {
+  @apply border rounded-lg w-full border-2 outline-none p-3 focus:border-blue-400 duration-150 bg-gray-100
+}
+
+.container {
+  @apply max-w-screen-md mx-auto
+}
+
+.btn-primary {
+  @apply px-10 py-3 bg-blue-400 hover:bg-blue-500 duration-200 rounded-md text-white
+}
